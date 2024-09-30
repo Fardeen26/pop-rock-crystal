@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'googleSans';
+    src: url('/google-sans/ProductSans-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'googleSansLight';
+    src: url('/google-sans/ProductSans-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.gradient-text {
+    background: linear-gradient(to right, #75CCEB, #6DB4FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
